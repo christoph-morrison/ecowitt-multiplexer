@@ -40,8 +40,8 @@ function send_data_via_post(string $endpoint = '') {
 $toLog = array();
 
 $endpoints = array(
-    'ecowitt' => 'http://cdnrtpdate.ecowitt.net/data/report/',
-    'mqtt-gw' => 'http://ecowitt-gw.fritz.box/',
+    'ecowitt'         => 'http://cdnrtpdate.ecowitt.net/data/report/',
+    'mqtt-gw'         => 'http://ecowitt-gw.fritz.box/',
     'ecowitt-mqtt-gw' => 'http://macbook-2019-christoph.fritz.box:10001/gateway.php',
 );
 
