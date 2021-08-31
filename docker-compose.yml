@@ -6,4 +6,4 @@ services:
     volumes:
       - ./src:/var/www/html/
     ports:
-      - 8000:10000
+      - 10000:80
